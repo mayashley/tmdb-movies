@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.png";
 import {BrowserRouter as Router,Route, Switch, Link } from 'react-router-dom';
 import MovieList from "./Components/MovieList";
+import MovieDetail from "./Components/MovieDetail";
 import "./App.css";
 
 
@@ -15,7 +16,7 @@ const App = () => (
         </header>
         <Switch>
 <Route exact path="/" component={MovieList} />
-<Route path="/Test" component={Test} />
+<Route path="/:id" component={MovieDetail} />
 </Switch>
       </div>
       </Router>
@@ -24,8 +25,6 @@ const App = () => (
 
 export default App;
 
-const Test = () => (
-<h1>test</h1>
-)
+
 
 // normal component
