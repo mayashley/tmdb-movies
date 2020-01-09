@@ -1,25 +1,26 @@
-import React, { Component } from "react";
+import React  from "react";
 import PropTypes from "prop-types";
 
-class Movie extends Component {
-  static propTypes = {
-    movie: PropTypes.shape({
-      title: PropTypes.string.isRequired
-    }),
-    desc: PropTypes.string
-  };
-  static defaultProps = {
-    desc: "Description not available"
-  };
+const POSTER_PATH = 'http://image.tmdb.org/t/p/w200';
+const BACKDROP_PATH = 'https://image.tmdb.org/t/p/w1280/';
 
-  render() {
-    return (
-      <div>
-        <h1>{this.props.movie.title}</h1>
-        <p>{this.props.desc}</p>
-      </div>
-    );
-  }
-}
+
+
+const Movie = ({movie}) => (
+    <div>
+      <img src={`${POSTER_PATH}${movie.poster_path}`} alt={movie.title} />
+      <h3>{movie.release_date}</h3>
+      <p>{movie.overview}</p>
+    </div>
+  );
 
 export default Movie;
+
+Movie.propTypes = {
+    movie: PropTypes.shape({
+      title: PropTypes.string.isRequired
+    }).isRequired,
+};
+
+
+// funstional stateless component,if no state, or lifecycle methods then use this component.
