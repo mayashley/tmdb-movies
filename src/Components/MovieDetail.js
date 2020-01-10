@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./MovieDetail.css";
 
 const POSTER_PATH = 'http://image.tmdb.org/t/p/w200';
 const BACKDROP_PATH = 'https://image.tmdb.org/t/p/w1280/';
@@ -26,9 +27,13 @@ class MovieDetail extends Component {
   render() {
     const {movie} = this.state;
     return (
-      <div>
+      <div className="movie-container">
+        <div className="backdrop-container">
         <img src={`${BACKDROP_PATH}${movie.backdrop_path}`} alt={movie.title} />
+        </div>
+        <div className="posterBackdrop-container">
         <img src={`${POSTER_PATH}${movie.poster_path}`} alt={movie.title} />
+        </div>
         <h1>{movie.title}</h1>
         <h3>{movie.release_date}</h3>
       <p>{movie.overview}</p>

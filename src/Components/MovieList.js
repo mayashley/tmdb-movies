@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import "./MovieList.css";
 import Movie from "./Movie";
 
 class MovieList extends Component {
@@ -24,8 +25,12 @@ class MovieList extends Component {
     render() {
 
         return(
-            <div>
-                {this.state.movies.map(movie => <Movie key={movie.id} movie={movie} />)}
+          <div className="movie-batch-container">
+            <div className="movie">
+                {this.state.movies.map(movie => 
+                <Movie key={movie.id} movie={movie} />)}
+              
+            </div>
             </div>
         )
     }

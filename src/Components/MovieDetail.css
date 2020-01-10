@@ -1,0 +1,21 @@
+.movie-container {
+    border: 3px solid red;
+}
+
+.backdrop-container {
+    border: 2px solid green;
+}
+
+.posterBackdrop-container {
+    border: 1px solid orange;
+}
+
+h1 {
+    border: 1px solid brown;
+}
+h3 {
+    border: 1px solid brown;
+}
+p {
+    border: 1px solid brown;
+}
