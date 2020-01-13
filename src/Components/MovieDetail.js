@@ -34,10 +34,17 @@ class MovieDetail extends Component {
         <div className="posterBackdrop-container">
         <img src={`${POSTER_PATH}${movie.poster_path}`} alt={movie.title} />
         </div>
+        
+        <div className="title-date-container">
         <h1>{movie.title}</h1>
         <h3>{movie.release_date}</h3>
+        </div>
+        <div className="p-info-container">
       <p>{movie.overview}</p>
       </div>
+      </div>
+    
+      
     );
   }
 }
