@@ -1,8 +1,7 @@
 .movie-container {
-  /* border: 3px solid red; */
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  width: 100%;
 }
 
 .backdrop-container {
@@ -10,40 +9,37 @@
 }
 
 .posterBackdrop-container {
-  border: 1px solid orange;
   display: flex;
   justify-content: center;
   margin-top: 66px;
- 
+}
+.poster {
+  box-shadow: 0 0 30px rgb(5, 5, 5);
+  height: 300px;
+  width: 200px;
+  border: 1px solid rgb(207, 207, 207);
 }
 
 .title-date-container {
   max-width: 100%;
-  /* border: 1px solid green; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
 }
 
 h1 {
-  /* border: 1px solid brown; */
-  font-size: 50px;
+  font-size: 40px;
   width: 100%;
   display: flex;
   justify-content: center;
-  /* margin-right: .5rem; */
-  /* max-width: 50%; */
   color: rgb(226, 180, 31);
-  margin: 0;
+  margin-top: 3%;
 }
 h3 {
-  /* border: 1px solid brown; */
-  /* max-width:50%; */
+  font-size: 28px;
   display: flex;
-  /* margin-left: .5rem; */
-  margin-top: 0;
+  margin-top: -30px;
   color: rgb(218, 218, 218);
 }
 
@@ -51,49 +47,43 @@ h3 {
   display: flex;
   justify-content: center;
   width: 100%;
+  padding: 0 0 6%;
 }
 p {
-  /* border: 1px solid brown; */
   display: flex;
-  text-align: left;
-  font-size: 24px;
+  text-align: center;
+  font-size: 26px;
   width: 90%;
-  margin: 0;
+  margin: -10px;
   color: rgb(204, 204, 204);
 }
-
 @media screen and (min-width: 768px) {
   .movie-container {
-    /* border: 3px solid red; */
-    display: flex;
-    flex-direction: column;
-    margin-top: 60px;
     overflow-x: hidden !important;
-  }
-
-  .backdrop-container {
-    /* border: 2px solid green; */
-    display: flex;
-    justify-content: center;
-  min-width: 100%;
-  }
-
-  .posterBackdrop-container {
-    /* border: 1px solid orange; */
-    margin: -80px;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .title-date-container {
-    max-width: 100%;
-    border: 1px solid green;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
   }
+  .backdrop-container {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+  }
+  .posterBackdrop-container {
+    margin-top: -150px;
+  }
+  .title-date-container {
+    margin-top: 2%;
+    display: flex;
 
- 
+    align-items: center;
+  }
+  h1 {
+    font-size: 56px;
+  }
+  h3 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 26px;
+  }
 }

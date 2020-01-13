@@ -32,15 +32,18 @@ class MovieDetail extends Component {
         <img src={`${BACKDROP_PATH}${movie.backdrop_path}`} alt={movie.title} />
         </div>
         <div className="posterBackdrop-container">
+          <div className="poster">
         <img src={`${POSTER_PATH}${movie.poster_path}`} alt={movie.title} />
+        </div>
         </div>
         
         <div className="title-date-container">
         <h1>{movie.title}</h1>
         <h3>{movie.release_date}</h3>
-        </div>
+       
         <div className="p-info-container">
       <p>{movie.overview}</p>
+      </div>
       </div>
       </div>
     
