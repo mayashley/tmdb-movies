@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e094fcbadf8dd961bbe42247a725942",
+    "revision": "377feb8463db9353dddd3beabc826d46",
     "url": "/tmdb-movies/index.html"
   },
   {
-    "revision": "f70449627a034f810f8e",
+    "revision": "301e27bf86b099dc5864",
     "url": "/tmdb-movies/static/css/main.9516e64f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tmdb-movies/static/js/2.5a278f68.chunk.js.LICENSE"
   },
   {
-    "revision": "f70449627a034f810f8e",
-    "url": "/tmdb-movies/static/js/main.10a9b0d1.chunk.js"
+    "revision": "301e27bf86b099dc5864",
+    "url": "/tmdb-movies/static/js/main.37f0f143.chunk.js"
   },
   {
     "revision": "c2b644230c1d8b047d6c",
