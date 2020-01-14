@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tmdb-movies/static/css/main.9516e64f.chunk.css",
-    "main.js": "/tmdb-movies/static/js/main.0fea4c39.chunk.js",
-    "main.js.map": "/tmdb-movies/static/js/main.0fea4c39.chunk.js.map",
+    "main.js": "/tmdb-movies/static/js/main.75014802.chunk.js",
+    "main.js.map": "/tmdb-movies/static/js/main.75014802.chunk.js.map",
     "runtime-main.js": "/tmdb-movies/static/js/runtime-main.e3364975.js",
     "runtime-main.js.map": "/tmdb-movies/static/js/runtime-main.e3364975.js.map",
     "static/js/2.5a278f68.chunk.js": "/tmdb-movies/static/js/2.5a278f68.chunk.js",
     "static/js/2.5a278f68.chunk.js.map": "/tmdb-movies/static/js/2.5a278f68.chunk.js.map",
     "index.html": "/tmdb-movies/index.html",
-    "precache-manifest.a94fc165039035a53fe60e62a9ff894a.js": "/tmdb-movies/precache-manifest.a94fc165039035a53fe60e62a9ff894a.js",
+    "precache-manifest.e51e4a56d49e045f5858f22f7d174489.js": "/tmdb-movies/precache-manifest.e51e4a56d49e045f5858f22f7d174489.js",
     "service-worker.js": "/tmdb-movies/service-worker.js",
     "static/css/main.9516e64f.chunk.css.map": "/tmdb-movies/static/css/main.9516e64f.chunk.css.map",
     "static/js/2.5a278f68.chunk.js.LICENSE": "/tmdb-movies/static/js/2.5a278f68.chunk.js.LICENSE",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.e3364975.js",
     "static/js/2.5a278f68.chunk.js",
     "static/css/main.9516e64f.chunk.css",
-    "static/js/main.0fea4c39.chunk.js"
+    "static/js/main.75014802.chunk.js"
   ]
 }
